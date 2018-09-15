@@ -30,7 +30,7 @@ def can_be_created_in_a_block(args = {})
 end
 
 def can_get_the_first_item_in_the_database
-  __
+  Movie.take
 end
 
 def can_get_the_last_item_in_the_database
