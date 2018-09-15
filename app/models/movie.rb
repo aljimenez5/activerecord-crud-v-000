@@ -6,7 +6,7 @@ class Movie < ActiveRecord::Base
     end
   end
   
-  self.attributes.each do |key, value|
+  self.column_names.each do |c_name|
     attr_accessor c_name.to_sym
   end
 end
