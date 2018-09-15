@@ -5,4 +5,5 @@ class Movie < ActiveRecord::Base
       self.send("#{key}=", value)
     end
   end
+  
 end
